@@ -2,7 +2,7 @@
 #네이밍 : BoxCreator_game_해당일차, ChoiceTreeOutput_game_해당일차, Pause_game_해당일차
 
 #게임 내  전화올 시 사용되는 매니저는 아래 네이밍규칙을 따르는 가진 3개의 스크립트와 SoundPlayer, ScrollMultiBar, UpperBarFunctions, Pause 컴포넌트를 갖는다.
-#네이밍 : BoxCreator_call_해당일차, ChoiceTreeOutput_call_해당일차, ChoiceTreeOutput_call_해당일차
+#네이밍 : BoxCreator_call_해당일차, ChoiceTreeOutput_call_해당일차, Pause_call_해당일차
 
 #게임 내  인별앱에서 사용되는 매니저는 아래 네이밍규칙을 따르는 가진 3개의 스크립트와 SoundPlayer, ScrollMultiBar, UpperBarFunctions, Pause 컴포넌트를 갖는다. 이때 ChoiceBox_ChoiceCall_Insta_해당일차는
 #해당 매니저에 최적화된 ChoiceBox를 만들어주는데 사용된다.
@@ -11,3 +11,12 @@
 #게임 내 비밀채팅 앱에서 사용되는 매니저는 아래 네이밍규칙을 따르는 가진 3개의 스크립트와 SoundPlayer, ScrollMultiBar, UpperBarFunctions, Pause 컴포넌트를 갖는다.
 #비밀채팅 앱은 가장 인터렉티브한 앱으로 사용될 수 있도록 매니저가 디자인되었다.
 #네이밍 : BoxCreator_Instar_bean_S_해당일차_식별알파뱃, ChoiceBox_ChoiceCall_Insta_bean_S_해당일차_식별알파뱃, ChoiceTreeOutput_Instar_bean_S_해당일차_식별알파뱃
+
+
+#각 스크립트는 다음과 같은 역할을 한다.
+#BoxCreator_ : TextBox와 DateBox, ChoiceBox를 생성할 수 있는 함수와 생성시 자동으로 스크롤 될 수 있도록 한다.
+#ChoiceTreeOutput_ : 화면에 출력할 Script를 입력해주면 해당 매니저가 담당하는 Panel에 Script가 출력된다.
+#Pause_ : 필요한 경우마다 게임의 진행속도를 조절해주며 TextBox밑 DateBox, ChoiceBox등의 배경색을 지정해준다.
+#SoundPlayer : 대화박스가 생성될 때 SE가 실행되도록 한다.
+#ScrollMultiBar : 대화창을 마우스로 스크롤 할 수 있도록 한다.
+#UpperBarFunctions : 배터리와 시계등 UpperBar가 작동되도록 한다.
