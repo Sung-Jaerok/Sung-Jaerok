@@ -1,1 +1,13 @@
+#게임 내 Do 11 앱 실행시 사용되는 매니저는 아래 네이밍규칙을 따르는 3개의 스크립트와 SoundPlayer, ScrollMultiBar, UpperBarFunctions 컴포넌트를 갖는다.
+#네이밍 : BoxCreator_game_해당일차, ChoiceTreeOutput_game_해당일차, Pause_game_해당일차
 
+#게임 내  전화올 시 사용되는 매니저는 아래 네이밍규칙을 따르는 가진 3개의 스크립트와 SoundPlayer, ScrollMultiBar, UpperBarFunctions, Pause 컴포넌트를 갖는다.
+#네이밍 : BoxCreator_call_해당일차, ChoiceTreeOutput_call_해당일차, ChoiceTreeOutput_call_해당일차
+
+#게임 내  인별앱에서 사용되는 매니저는 아래 네이밍규칙을 따르는 가진 3개의 스크립트와 SoundPlayer, ScrollMultiBar, UpperBarFunctions, Pause 컴포넌트를 갖는다. 이때 ChoiceBox_ChoiceCall_Insta_해당일차는
+#해당 매니저에 최적화된 ChoiceBox를 만들어주는데 사용된다.
+#네이밍 : BoxCreator_Instar_해당일차, ChoiceBox_ChoiceCall_Insta_해당일차, ChoiceTreeOutput_Instar_해당일차
+
+#게임 내 비밀채팅 앱에서 사용되는 매니저는 아래 네이밍규칙을 따르는 가진 3개의 스크립트와 SoundPlayer, ScrollMultiBar, UpperBarFunctions, Pause 컴포넌트를 갖는다.
+#비밀채팅 앱은 가장 인터렉티브한 앱으로 사용될 수 있도록 매니저가 디자인되었다.
+#네이밍 : BoxCreator_Instar_bean_S_해당일차_식별알파뱃, ChoiceBox_ChoiceCall_Insta_bean_S_해당일차_식별알파뱃, ChoiceTreeOutput_Instar_bean_S_해당일차_식별알파뱃
